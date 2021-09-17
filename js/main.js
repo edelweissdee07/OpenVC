@@ -18,7 +18,7 @@ humburger.addEventListener('click',()=>{
 $(document).on('ready', function() {
       $(".regular").slick({
             dots: false,
-            // autoplay:true,
+            autoplay:true,
             Arrows:true,
             infinite: true,
             centerMode: true,
@@ -33,7 +33,7 @@ $(document).on('ready', function() {
                   arrows: true,
                   centerMode: true,
                   centerPadding: '40px',
-                  slidesToShow: 2
+                  slidesToShow: 1
                   }
                   },
                   {
@@ -51,8 +51,9 @@ $(document).on('ready', function() {
           $(".daphne").slick({
             dots: false,
             infinite: true,
-            // autoplay:true,
-            slidesToShow: 5,
+            autoplay:true,
+            slidesToShow: 3,
+            arrows: true,
             slidesToScroll: 1,
              
             responsive: [
@@ -63,7 +64,7 @@ $(document).on('ready', function() {
                   centerMode: true,
                   slidesToShow: 4,
                   centerPadding: '10px',
-                  slidesToShow: 3
+                  slidesToShow: 2
                   }
                   },
                   {
@@ -72,7 +73,7 @@ $(document).on('ready', function() {
                   arrows: true,
                   centerMode: true,
                   centerPadding: '40px',
-                  slidesToShow: 3
+                  slidesToShow: 2
                   }
                   }
                   ]

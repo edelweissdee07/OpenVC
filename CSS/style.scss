@@ -248,8 +248,8 @@ img{
             padding: 4px 16px;
 
        @media screen and ( min-width: 576px) {
-             padding: 14px 39px;
-             font-size: 26px;
+            padding: 3px 29px;
+            font-size: 26px;
              
        }
        @media screen and (  min-width: 576px) and (max-width:768px) {
@@ -289,10 +289,10 @@ img{
             left: 22%;
             border-radius: 21px;
             @media screen and ( min-width: 576px) {
-                  top: 65%;
-                  left: 80%;
-                  height: 16vh;
-                  width: 19%;
+                  top: 74%;
+                  left: 75%;
+                  width: 23%;
+                  padding: 1px 7px;
             }
             @media screen and (  min-width: 576px) and (max-width:768px) { 
                   top: 86%;
@@ -421,18 +421,20 @@ img{
       text-align: center;
         padding: 50px 0;
       overflow: hidden;
+      font-family: $text-regular;
       @media screen and ( min-width: 576px){
             padding: 85px 11px;
+            text-align: left;
       }
       h2{
             font-size: 15px;
-            text-align: center;
+      
          
             @media screen and ( min-width: 576px){
-                  font-size: 59px;
+                  font-size: 51px;
                   margin-left: 65px;
                   padding: 41px;
-                  text-align: center;
+                  
 
 
             }
@@ -468,8 +470,16 @@ img{
                   width: 33%;
                   font-size: 14px;
                   display: flex;
+                  text-shadow: 0 3 6;
                   justify-content: center;
                   align-items: center; 
+            }
+            @media screen and (  min-width: 576px) and (max-width:768px) {
+                  top: 79%;
+                  left: 30%; 
+                  padding: 14px 72px;
+                  width: 32%;
+                  font-size: 20px; 
             }
 
       }
@@ -511,7 +521,7 @@ img{
             justify-content: space-between;
             flex-direction: row;
             padding: 87px 28px;
-            text-align: right;
+            text-align: left;
       }
       @media screen and (  min-width: 576px) and (max-width:768px) {
             flex-direction: column;
@@ -597,6 +607,7 @@ p{
       .co-f3{
         @media screen and ( min-width: 576px) {
         margin-top: 14%;
+     
         width: 47%;
             }
 
@@ -1089,7 +1100,7 @@ button{
     transition: all ease-in-out .3s;
     opacity: 0;
     @media screen and ( min-width: 576px) {
-          opacity: 1;
+          opacity: 0;
     }
   }
   
