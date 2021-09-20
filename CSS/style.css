@@ -32,7 +32,7 @@ img {
   width: 28%;
   width: 31%;
   position: absolute;
-  top: 2%;
+  top: 3%;
   left: 25px;
 }
 
@@ -40,13 +40,14 @@ img {
   .my-header img {
     width: 15%;
     position: relative;
+    left: 0;
   }
 }
 
 .my-header .humburger {
   position: absolute;
   right: 25px;
-  top: 1rem;
+  top: 4%;
   width: 25px;
   height: 25px;
   background-color: #E1EFF6;
@@ -201,7 +202,7 @@ img {
 .hero {
   background-color: #E1EFF6;
   padding-top: 6rem;
-  text-align: center;
+  text-align: left;
 }
 
 @media screen and (min-width: 576px) {
@@ -263,7 +264,7 @@ img {
 
 @media screen and (min-width: 576px) {
   .hero a {
-    padding: 3px 29px;
+    padding: 10px 63px;
     font-size: 26px;
   }
 }
@@ -277,6 +278,7 @@ img {
 
 .hero h1 {
   font-size: 21px;
+  text-transform: uppercase;
   margin-bottom: 37px;
 }
 
@@ -314,9 +316,9 @@ img {
   background-color: #fff;
   position: absolute;
   top: 83%;
-  width: 61%;
-  left: 22%;
-  border-radius: 21px;
+  width: 67%;
+  left: 17%;
+  border-radius: 11px;
 }
 
 @media screen and (min-width: 576px) {
@@ -362,6 +364,10 @@ img {
   }
 }
 
+.hero i img {
+  width: 3%;
+}
+
 .about {
   background-color: #E1EFF6;
   text-align: center;
@@ -375,7 +381,7 @@ img {
 }
 
 .about h2 {
-  font-size: 17px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -461,6 +467,7 @@ img {
 
 .about .card {
   margin-top: 12vh;
+  border-radius: 1rem;
   border-radius: 2rem;
 }
 
@@ -475,7 +482,6 @@ img {
   text-align: center;
   padding: 50px 0;
   overflow: hidden;
-  font-family: "Montserrat-Regualar";
 }
 
 @media screen and (min-width: 576px) {
@@ -487,6 +493,7 @@ img {
 
 .founders h2 {
   font-size: 15px;
+  padding: 23px;
 }
 
 @media screen and (min-width: 576px) {
@@ -561,7 +568,7 @@ img {
 }
 
 .founders p {
-  font-size: 10px;
+  font-size: 13px;
   margin-top: 23px;
 }
 
@@ -573,13 +580,14 @@ img {
 
 .founders span {
   display: block;
+  -webkit-box-shadow: 0 3 6px;
+          box-shadow: 0 3 6px;
   margin-right: 17%;
 }
 
 @media screen and (min-width: 576px) {
   .founders span {
     display: block;
-    margin-right: 17%;
   }
 }
 
@@ -596,6 +604,13 @@ img {
 .co-founder {
   background-color: #E1EFF6;
   padding: 50px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   text-align: center;
 }
 
@@ -700,7 +715,7 @@ img {
 }
 
 .co-founder p {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 @media screen and (min-width: 576px) {
@@ -726,6 +741,10 @@ img {
   .co-founder .co-f3 {
     width: 83%;
   }
+}
+
+.co-founder i img {
+  width: 4%;
 }
 
 .investors {
@@ -1031,6 +1050,7 @@ h2 {
 
 .questions .accordion__answer__container p {
   font-size: 10px;
+  padding: 13px;
 }
 
 @media screen and (min-width: 576px) {
@@ -1208,7 +1228,7 @@ h2 {
 }
 
 .my-footer h6 {
-  font-size: 14px;
+  font-size: 23px;
   color: #fff;
 }
 
@@ -1235,20 +1255,22 @@ h2 {
 
 .my-footer span p {
   margin: 0;
+  font-size: 10px;
 }
 
 .my-footer span hr {
-  height: 33px;
-  border: 2px solid white;
-  width: 2px;
+  height: 21px;
+  border: 1px solid white;
+  width: 1px;
   opacity: 1;
   margin: 3px 0x;
-  margin: 13px 6px 0 20px;
+  margin: 4px 8px 0 20px;
 }
 
 .my-footer span img {
   -o-object-fit: contain;
      object-fit: contain;
+  width: 17%;
 }
 
 @media screen and (min-width: 576px) {
@@ -1285,7 +1307,7 @@ h2 {
 .slick-slide {
   -webkit-transition: all ease-in-out .3s;
   transition: all ease-in-out .3s;
-  opacity: 0;
+  opacity: 1;
 }
 
 @media screen and (min-width: 576px) {
