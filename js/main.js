@@ -18,7 +18,7 @@ humburger.addEventListener('click',()=>{
 $(document).on('ready', function() {
       $(".regular").slick({
             dots: false,
-            // autoplay:true,
+            autoplay:true,
             Arrows:true,
             infinite: true,
             centerMode: true,
